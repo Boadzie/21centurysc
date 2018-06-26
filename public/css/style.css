@@ -101,7 +101,7 @@ header.main-header h1 {
 }
 
 /*======================
-    SECTION
+    HOME SECTION
 ========================*/
 section.the-21st-skills {
     background: #fff;
@@ -112,6 +112,29 @@ section.the-21st-skills p {
     text-align: center;
     line-height: 1.5;
     margin: 0 auto;
+}
+
+/*======================
+    DISCOVER SECTION
+========================*/
+section.discover {
+    background: #555;
+    color: #fff;
+    padding-bottom: 0px;
+}
+
+section.discover span {
+    display: block;
+    background: #00dbff;
+    height: 10px;
+    margin-top: 50px;
+}
+
+section.discover-form form {
+    background: #fff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 4px #ccc;
 }
 
 /*======================
