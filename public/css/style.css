@@ -34,6 +34,31 @@ footer {
     padding: 50px 0px 20px 0px;
 }
 
+section.discover, 
+section.develop,
+section.sign-up {
+    background: #555;
+    color: #fff;
+    padding-bottom: 0px;
+}
+
+section.discover span,
+section.develop span,
+section.sign-up span {
+    display: block;
+    background: #00dbff;
+    height: 10px;
+    margin-top: 50px;
+}
+
+section.the-21st-skills p,
+section.what-we-do p {
+    width: 70%;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
 /*======================
     NAVIGATION
 ========================*/
@@ -107,30 +132,73 @@ section.the-21st-skills {
     background: #fff;
 }
 
-section.the-21st-skills p {
-    width: 70%;
-    text-align: center;
-    line-height: 1.5;
-    margin: 0 auto;
-}
 
 /*======================
     DISCOVER SECTION
 ========================*/
-section.discover {
-    background: #555;
-    color: #fff;
-    padding-bottom: 0px;
-}
-
-section.discover span {
-    display: block;
-    background: #00dbff;
-    height: 10px;
-    margin-top: 50px;
-}
 
 section.discover-form form {
+    background: #fff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 4px #ccc;
+}
+
+/*======================
+    DEVELOP SECTION
+========================*/
+
+section.clinics .card {
+    margin-bottom: 20px;
+}
+
+/*======================
+    ABOUT SECTION
+========================*/
+section.what-we-do {
+    background: #fff;
+}
+
+section.the-team img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+div.team-card {
+    text-align: center;
+}
+
+div.team-card h3 {
+    color: rgb(225, 186, 32);
+}
+
+div.team-card p {
+    padding: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    color: #555;
+}
+
+/*======================
+    CONTACT US
+========================*/
+section.contact {
+    background: #252525;
+    color: #fff;
+    text-align: center;    
+    height: 50vh;
+}
+
+section.contact h1 {
+    font-size: 54px;
+}
+
+/*======================
+    SIGN UP
+========================*/
+section.signup-form form {
     background: #fff;
     padding: 20px 30px 20px 30px;
     border-radius: 10px;
