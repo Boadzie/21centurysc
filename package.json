@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "mdbreact": "^4.5.0",
+    "npm": "^6.1.0",
     "particlesjs": "^2.2.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",

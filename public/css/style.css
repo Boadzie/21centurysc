@@ -1,0 +1,248 @@
+/*======================
+    GENERAL
+========================*/
+
+body {
+    margin: 0;
+    background: #f2f2f2;
+    font-family: sans-serif;
+    color: #333;
+}
+
+section {
+    padding: 50px 0px 50px 0px;
+}
+
+section h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+}
+
+section h2::after {
+    display: block;
+    content: " ";
+    height: 3px;
+    width: 100px;
+    background: #00dbff;
+    margin: 30px auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 50px 0px 20px 0px;
+}
+
+section.discover, 
+section.develop,
+section.use,
+section.sign-up {
+    background: #555;
+    color: #fff;
+    padding-bottom: 0px;
+}
+
+section.discover span,
+section.develop span,
+section.sign-up span {
+    display: block;
+    background: #00dbff;
+    height: 10px;
+    margin-top: 50px;
+}
+
+section.the-21st-skills p,
+section.what-we-do p {
+    width: 70%;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+/*======================
+    NAVIGATION
+========================*/
+nav#main-menu {
+    width: 100%;
+    background: #333;
+    color: #fff;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+}
+
+nav#main-menu .logo {
+    display: inline-block;
+}
+
+nav#main-menu .logo a {
+    display: block;
+    color: #00dbff;
+    text-decoration: none;
+    padding: 16px 10px;
+}
+
+nav#main-menu div.menu-list {
+    display: inline-block;  
+    margin: 0;
+    padding: 0;
+}
+
+nav#main-menu .menu-list a {
+    text-decoration: none;
+    color: #fff;
+    margin:0;
+    text-transform: uppercase;
+    padding: 16px 10px;
+    transition: all 0.2s ease;
+}
+
+nav#main-menu .menu-list a:hover {
+    background: #fff;
+    color: #333; 
+}
+
+/*======================
+    MAIN HEADER
+========================*/
+header.main-header {
+    background: linear-gradient(#176c7e66, #0aaacc4d), url('../resources/img/people.jpg');
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header.main-header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
+}
+
+/*======================
+    HOME SECTION
+========================*/
+section.the-21st-skills {
+    background: #fff;
+}
+
+
+/*======================
+    DISCOVER SECTION
+========================*/
+
+section.discover-form form {
+    background: #fff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 4px #ccc;
+}
+
+/*======================
+    DEVELOP SECTION
+========================*/
+
+section.clinics .card {
+    margin-bottom: 20px;
+}
+
+/*======================
+    ABOUT SECTION
+========================*/
+section.what-we-do {
+    background: #fff;
+}
+
+section.the-team img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+div.team-card {
+    text-align: center;
+}
+
+div.team-card h3 {
+    color: rgb(225, 186, 32);
+}
+
+div.team-card p {
+    padding: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    color: #555;
+}
+
+/*======================
+    CONTACT US
+========================*/
+section.contact {
+    background: #252525;
+    color: #fff;
+    text-align: center;    
+    height: 50vh;
+}
+
+section.contact h1 {
+    font-size: 54px;
+}
+
+/*======================
+    SIGN UP
+========================*/
+section.signup-form form {
+    background: #fff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 4px #ccc;
+}
+
+/*======================
+    FOOTER
+========================*/
+
+footer h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer h3::after {
+    display: block;
+    content: " ";
+    height: 3px;
+    width: 100px;
+    background: #00dbff;
+    margin: 20px auto;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    padding: 10px 0px 0px 0px;
+    transition: all 0.2s ease;
+}
+
+footer ul li:hover {
+    color: #00dbff;
+}
+
+footer p {
+    padding: 25px 0px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
