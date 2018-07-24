@@ -14,7 +14,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col">
                             <h2>What is 21st Century Skills?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>21st Century Skills is an online platform that helps people to acquire the most crucial 21st century skills that gives them an unfair advantage in the 21st century. <Link to="/signUp">Sign up now</Link> to get started.</p>
                         </div>
                     </div>
                 </div>
@@ -30,24 +30,24 @@ const Home = () => {
                     <div className="card col-md-4">
                             <img className="card-img-top" src={require("../../images/discover.jpg")} alt="discover" />
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 className="card-title">Discover</h5>
+                                <p className="card-text">Unearth all your potentials and passions...</p>
                                 <Link to="/discover" class="btn btn-primary">Discover</Link>
                             </div>
                         </div>
                         <div className="card col-md-4">
                             <img className="card-img-top" src={require("../../images/build.jpg")} alt="develop"/>
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 className="card-title">Develop</h5>
+                                <p className="card-text">Develop these potentials and passion by acquiring the most crucial 21st century skills...</p>
                                 <Link to="/develop" class="btn btn-primary">Develop</Link>
                             </div>
                         </div>
                         <div className="card col-md-4">
                             <img className="card-img-top" src={require("../../images/use.jpg")} alt="use" />
                             <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 className="card-title">Use</h5>
+                                <p className="card-text">Use your developed potentials to serve the world through entrepreneurship...</p>
                                 <Link to="/use" class="btn btn-primary">Use</Link>
                             </div>
                         </div>
